@@ -1,0 +1,45 @@
+body {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+   
+
+}
+
+blockquote {
+    color:#212529;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: justify;
+    border: solid skyblue 3px;
+    border-radius: 10px 10px 10px 10px ;
+    padding: 4px;
+    padding-bottom:10px;
+    letter-spacing: 2px;
+    
+    }
+    
+blockquote::before {
+    content: open-quote;
+    font-size: 100px;
+    line-height: 1px;
+    vertical-align: -0.35em;
+        
+    }
+    
+h1{
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: justify;
+    padding: 4px;
+    font-size: 20px;
+    }
+
+p{
+color:#007bff;
+}
